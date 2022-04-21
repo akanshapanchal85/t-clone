@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
-import TinderCard from './components/TinderCard';
+import TinderCards from './components/TinderCards';
 import {
   BrowserRouter,
   Routes,
@@ -13,7 +13,7 @@ const App = () => {
     <Header/>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<TinderCard/>} />
+        <Route path='/' element={<TinderCards/>} />
       </Routes>
     </BrowserRouter>
     </div>
